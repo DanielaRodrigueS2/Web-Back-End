@@ -11,3 +11,12 @@ function fatorial(num) {
 
 // Exercício 2:
 
+function retornaString(n, msg) {
+    let mensagem;
+    for (i = 0; i < n; i++) {
+        mensagem = mensagem + " " + msg;
+    }
+    return mensagem;
+}
+
+// Exercício 3:
